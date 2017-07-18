@@ -1,0 +1,185 @@
+<header>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- making sure that nav-bar collapse works --> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script
+  <!-- import Lobster font from google fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Lobster&effect=font-effect-outline' rel='stylesheet'   type='text/css'>
+  <!-- import Athiti font from google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Athiti" rel="stylesheet">
+  <!-- importing font awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- linking bootstrap to index.html-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"> 
+  <!-- linking js and css files to index.html --> 
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script type="text/javascript" src="js/script.js"></script>
+  <!-- particles effect --> 
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>>
+</header>
+
+
+<!-- The scrollable area -->
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<!-- The navbar - The <a> elements are used to jump to a section in the scrollable area -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <!-- collapsed navbar-->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!--end collapse-->
+      <a class="navbar-brand scroll" href="#home">Chris Jim</a>
+     </div>
+     <div class="collapse navbar-collapse" id="myNavbar">
+       <ul class="nav navbar-nav navbar-right">
+         <li class="active"><a href="#home" class="scroll"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+         <li><a href="#about" class="scroll"><span class="glyphicon glyphicon-user"></span> About </a></li> 
+         <li><a href="#experience" class="scroll"><span class="glyphicon glyphicon-road"></span> Experience</a></li>
+         <li><a href="#portfolio" class="scroll"><span class="glyphicon glyphicon-briefcase"></span> Portfolio</a></li>
+         <li><a href="#contact" class="scroll"><span class="glyphicon glyphicon-globe"></span> Contact</a></li>
+       </ul>
+     </div>
+  </div>
+</nav>
+  
+<!-- Section 1 -->
+  <section class="pageOne text-center" id="home">
+    <div class="transBlock text-center">
+      <h1> Chris Jim </h1>
+      <h3> iOS Developer | Front-End Web Developer</h3>
+    </div>
+    <div class="btnList">
+      <a class="btn btn-email btn-lg" href="mailto:chrisjim316@gmail.com" title="Email"><i class="fa fa-2x fa-envelope"></i></a>
+      <a class="btn btn-linkedin btn-lg" href="https://www.linkedin.com/in/chris-jim-77b090128/" target="_blank" title="LinkedIn"><i class="fa fa-2x fa-linkedin"></i></a>
+      <a class="btn btn-github btn-lg" href="https://github.com/chrisjim316" target="_blank" title="GitHub"><i class="fa fa-2x fa-github"></i></a>
+      <a class="btn btn-quora btn-lg" href="https://www.quora.com/profile/Chris-Jim-1" target="_blank" title="Quora"><i class="fa fa-2x fa-quora"></i></a>
+      <a class="btn btn-free-code-camp btn-lg" href="https://www.freecodecamp.com/chrisjim316" target="_blank" title="freeCodeCamp"><i class="fa fa-2x fa-free-code-camp"></i></a>
+    </div> 
+  </section>
+  
+<!-- Section 2 --> 
+  <section class="pageTwo" id="about">
+    <div class="self-intro">
+      <hr>
+      <p> I fell in love with programming when I was 17 and have been self-learning ever since.</p>
+      <hr>
+    </div>
+    <div class="text-center">
+      <h1 style="color:black; top:20px;"><strong> Technical Skills </strong></h1>  
+    </div> 
+    <h2 class="text-center" id="pageTwoLabel"><strong> Languages: </strong></h2> 
+    <div class="row text-center" style="font-size:2.0em;">
+      <div class="skill skillLabel"><strong> Proficient: </strong></div>  
+        <div class="skill" style="color:white;"><a href="https://github.com/chrisjim316/JavaWorkspace" target="_blank"> Java </a>
+        </div>
+        <div class="skill"> HTML5 </div> 
+        <div class="skill"> CSS </div> 
+    </div> 
+    <div class="row text-center" style="font-size:2.0em;">
+      <div class="skill skillLabel"><strong> Familiar: </strong></div>  
+        <div class="skill"> Swift </div>
+        <div class="skill"><a href="https://github.com/chrisjim316/JavaScriptPlayground-" target="_blank"> JavaScript </a></div> 
+    </div> 
+    <div class="row text-center" style="font-size:2.0em;">
+      <div class="skill skillLabel"><strong> Beginner: </strong></div>  
+        <div class="skill"> Python </div>
+        <div class="skill"><a href="https://github.com/chrisjim316/Cplusplus_WorkSpace/tree/master" target="_blank"> C++ </a> </div>
+    </div> 
+    <h2 class="text-center" id="pageTwoLabel"><strong> Frameworks / Libraries: </strong></h2>
+    <div class="row text-center" style="font-size:2.0em;">
+      <div class="skill"> jQuery </div> 
+      <div class="skill"> Bootstrap </div>
+    </div> 
+    <h2 class="text-center" id="pageTwoLabel"><strong> Platforms: </strong></h2>
+    <div class="row text-center" style="font-size:2.0em;">
+      <div class="skill"> iOS </div> 
+      <div class="skill"> Web </div>
+    </div> 
+    <h2 class="text-center" id="pageTwoLabel"><strong> Tools: </strong></h2>
+    <div class="row text-center" style="font-size:2.0em;">
+      <div class="skill"> Git </div> 
+      <div class="skill"> XCode </div>
+      <div class="skill"> BlueJ </div> 
+      <div class="skill"> Atom </div> 
+    </div> 
+  </section>
+
+<!-- Section 3 --> 
+  <section class="pageThree" id="experience" >
+    <h1 class="text-center" style="color:black;"> My Experience </h1> 
+      <div style="position:relative; top:5%; left:10%;"> 
+        <a class="btn btn-free-code-camp btn-lg" href="https://www.freecodecamp.com/chrisjim316" target="_blank" title="freeCodeCamp"><i class="fa fa-5x fa-free-code-camp"></i></a>
+        <h2>Freelance Web Developer 2017-Present</h2>
+        <a class="btn btn-github btn-lg" href="https://github.com/chrisjim316" target="_blank" title="GitHub"><i class="fa fa-5x fa-github"></i></a>
+        <h2>Open Source Developer 2017-Present</h2>
+        <img src="https://github.com/chrisjim316/Personal-Portfolio-/blob/master/Images/BigNerdRanchLogo.jpeg?raw=true" alt="BigNerdRanch" id="bigNerdRanch"></a>
+        <h2>iOS Developer 2017-Present</h2>
+      </div>
+  </section>
+  
+<!-- Section 4 -->   
+  <section class="pageFour" id="portfolio">
+    <div id="particles-js">
+      <h1 class="text-center"> Portfolio </h1>
+      <div class="row">
+        <h2 class="text-center" style="position:relative; top:-10px;" id="projectLabel"> WORLDTROTTER </h2>
+        <div class="worldTrotter">
+          <ul style="col-md-8"> 
+            <li> 
+              This app contains multiple views(tabs).
+            </li>
+            <li>
+              One view converts values between degrees Fahrenheit and degrees Celsius, one displays the world map, and the other displays web view.
+            </li>
+            </li>
+            <li>
+              All views are localized in three distinct languages (English, Chinese, Spanish).
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <img src="https://github.com/chrisjim316/Personal-Portfolio-/blob/master/Images/TransWorldTrotter.png?raw=true" alt="WorldTrotter" id="worldTrotter"> 
+        </div>
+      </div>
+    </div>
+  </section> 
+  
+<!-- Section 5 -->  
+  <section class="pageFive" id="contact">
+    <h1 class="text-center"> Say Hello to Me </h1>
+    <div class="bottomBtnList">
+      <a class="btn btn-email btn-lg" href="mailto:chrisjim316@gmail.com" title="Email"><i class="fa fa-2x fa-envelope"></i></a>
+      <a class="btn btn-linkedin btn-lg" href="https://www.linkedin.com/in/chris-jim-77b090128/" target="_blank" title="LinkedIn"><i class="fa fa-2x fa-linkedin"></i></a>
+      <a class="btn btn-github btn-lg" href="https://github.com/chrisjim316" target="_blank" title="GitHub"><i class="fa fa-2x fa-github"></i></a>
+      <a class="btn btn-quora btn-lg" href="https://www.quora.com/profile/Chris-Jim-1" target="_blank" title="Quora"><i class="fa fa-2x fa-quora"></i></a>
+      <a class="btn btn-free-code-camp btn-lg" href="https://www.freecodecamp.com/chrisjim316" target="_blank" title="freeCodeCamp"><i class="fa fa-2x fa-free-code-camp"></i></a>
+    </div> 
+  </section> 
+  
+<!-- The footer -->
+  <footer>
+    <p>Copyright © Chris Jim 2017. All Rights Reserved</p>
+    <p>
+      <a href="mailto:chrisjim316@gmail.com">
+        <i class="fa fa-envelope"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/chris-jim-77b090128/" target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/chrisjim316" target="_blank">
+        <i class="fa fa-github"></i>
+      </a>
+      <a href="https://www.quora.com/profile/Chris-Jim-1" target="_blank">
+        <i class="fa fa-quora"></i>
+      </a>
+      <a href="https://www.freecodecamp.com/chrisjim316" target="_blank">
+    <i class="fa fa-free-code-camp"></i>
+      </a></p>
+  </footer>
+</body>
+
+
