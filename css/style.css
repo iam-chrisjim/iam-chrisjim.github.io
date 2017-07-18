@@ -1,0 +1,272 @@
+html, body {
+    background-color: white;
+    color:white;
+    font-family: 'Athiti', sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+.pageOne {
+  background:url("http://picknotebook.com/blog/wp-content/uploads/2015/11/best-laptop-for-programming.jpg");
+  background-size: cover;
+  height: 1000px;
+}
+
+.pageTwo {
+  background:url("https://github.com/chrisjim316/Personal-Portfolio-/blob/master/Images/About.jpg?raw=true");
+  background-size: cover;
+  height: 1500px; 
+  padding-top:10px;
+}
+
+#pageTwoLabel {
+  font-size:5.0em; 
+  padding-bottom:30px;
+}
+
+.pageThree {
+  background:url("https://user-images.githubusercontent.com/26378494/28327004-d6d6ce24-6c14-11e7-9051-3e682504ee70.jpg");
+  background-size: cover;
+  height: 1000px;
+  padding-top: 5px;
+}
+
+.pageFour {
+  height: 1500px;
+  margin-top: -20px;
+}
+
+.pageFive {
+  background:url("http://unsplash.com/photos/ZItuB3bb8aE/download?force=true");
+  background-size: cover;
+  height: 350px;
+  padding-top: 10px;
+}
+
+.btnList {
+  display: block;
+  width: 100%;
+  top: 400px;
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+}
+
+.bottomBtnList {
+  display: block;
+  width: 100%;
+  bottom: 0;
+  position: relative;
+  text-align: center;
+}
+
+.btn-linkedin {
+	  background: #0E76A8;
+	  border-radius: 10px;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #084461;
+}
+
+.btn-quora {
+    background: #cc0000;
+    border-radius: 10px;
+    color: white; 
+    border-width: 1px;
+    border-style: solid;
+	  border-color: #084461;
+}
+
+.btn-github {
+    background-color: #4d0066;
+    border-radius: 10px;
+    color: white; 
+    border-width: 1px;
+    border-style: solid;
+	  border-color: #084461;
+}
+
+.btn-email {
+    background-color: #141f1f;
+    border-radius: 10px;
+    color: white; 
+    border-width: 1px;
+    border-style: solid;
+	  border-color: #084461;
+}
+
+.btn-free-code-camp {
+    background-color: #006600;
+    border-radius: 10px;
+    color: white; 
+    border-width: 1px;
+    border-style: solid;
+	  border-color: #084461;
+}
+
+h1 {
+  padding-top: 10px;
+  font-size: 7.0em;
+}
+
+h2 {
+  font-size: 3.0em;
+  color: black;
+}
+
+h3 {
+  font-size: 2.5em;
+}
+
+.transBlock {
+  background-color: black;
+  opacity: .7;
+  padding-bottom: 10px;
+  width: 650px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 15px;
+  position: relative;
+  top: 140px;
+}
+
+footer {
+  background-color: black;
+  color: gray;
+  line-height: 20px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  width: 100%;
+  bottom: 0;
+  position: relative;
+  text-align: center;
+}
+
+#particles-js {
+  width: 100%;
+  height: 1600px;
+  background: #111111;
+}
+
+#worldTrotter {
+  width: 30%;
+  height: auto;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 15px;
+  border-color: #0099ff;
+  position: absolute;
+  left: 20%;
+}
+
+.worldTrotter {
+  position: absolute; 
+  font-size: 1.8em;
+  left: 50%;
+}
+
+.skill {
+  background-color: black;
+  opacity: .8;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 15px;
+  position: relative;
+  display: inline-block;
+}
+
+.skillLabel, #projectLabel {
+  color: white;
+}
+
+.self-intro {
+  text-align: center; 
+  font-size: 2.5em;
+  color: black;
+  opacity: .7;
+  width: 50%; 
+  margin: 0 auto;
+}
+
+hr {
+  width: 65%;
+  height: 5px;
+  background-color: black;
+}
+
+#bigNerdRanch {
+  position: relative; 
+}
+
+ul {
+  width:30%; 
+}
+
+
+
+/* 
+background scroll effects only work in desktop versions with larger   screen sizes, preventing background images from getting distorted in smaller tablets, phones, etc.  
+*/
+@media (min-width:1400px)   {
+  .pageOne, .pageTwo, .pageThree, .pageFour, .pageFive {
+    	background-repeat: no-repeat; 
+      background-attachment: fixed;
+      background-position: center; 
+   }
+  #bigNerdRanch {
+      width: 8%;
+      height: 8%;
+  }
+}
+
+/*mobile screens */
+@media (max-width: 800px) and (min-width: 300px) {
+  .pageOne, .pageTwo, .pageThree, .pageFour, .pageFive {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+  img {
+    width: 30vw; 
+    height: 30vh;
+  }
+  h1 {
+    font-size: 15vw;
+  }
+  h2 {
+    font-size: 5vw;
+  }
+  h3 {
+    font-size: 6vw;
+  }
+  p {
+    font-size: 6vw;
+  }
+  .skill {
+    font-size: 5vw;
+  }
+  .transBlock {
+    width: 65%;
+  }
+  ul {
+    font-size: 3vw;
+    width: 80%;
+  }
+  #bigNerdRanch {
+    width: 30%;
+    height: 20%;
+  }
+  #pageTwoLabel {
+    font-size: 13vw;
+  }
+  .pageOne {
+    background-size: 100% 100%;
+    background:url("https://github.com/chrisjim316/Personal-Portfolio-/blob/master/Images/Intro-mobileSize.jpg?raw=true");
+  }
+}
+
+
+
