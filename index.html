@@ -14,8 +14,6 @@
   <!-- linking js and css files to index.html --> 
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <script type="text/javascript" src="js/script.js"></script>
-  <!-- particles effect --> 
-  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>>
 </header>
 
 
@@ -109,7 +107,7 @@
   </section>
 
 <!-- Section 3 --> 
-  <section class="pageThree" id="experience" >
+  <section class="pageThree" id="experience"> 
     <h1 class="text-center" style="color:black;"> My Experience </h1> 
       <div style="position:relative; top:5%; left:10%;"> 
         <a class="btn btn-free-code-camp btn-lg" href="https://www.freecodecamp.com/chrisjim316" target="_blank" title="freeCodeCamp"><i class="fa fa-5x fa-free-code-camp"></i></a>
@@ -121,33 +119,84 @@
       </div>
   </section>
   
-<!-- Section 4 -->   
+<!-- Section 4 Project Showcase -->   
   <section class="pageFour" id="portfolio">
-    <div id="particles-js">
-      <h1 class="text-center"> Portfolio </h1>
-      <div class="row">
-        <h2 class="text-center" style="position:relative; top:-10px;" id="projectLabel"> WORLDTROTTER </h2>
-        <div class="worldTrotter">
-          <ul style="col-md-8"> 
-            <li> 
-              This app contains multiple views(tabs).
-            </li>
-            <li>
-              One view converts values between degrees Fahrenheit and degrees Celsius, one displays the world map, and the other displays web view.
-            </li>
-            </li>
-            <li>
-              All views are localized in three distinct languages (English, Chinese, Spanish).
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <img src="https://github.com/chrisjim316/Personal-Portfolio-/blob/master/Images/TransWorldTrotter.png?raw=true" alt="WorldTrotter" id="worldTrotter"> 
+    <h1 class="text-center"> Portfolio </h1>
+    <h3 class="text-center"> Click on each project's title for more info* </h3>
+    <div class="container">
+
+      <!-- first row -->
+       <div class="row">
+        <div class="col-md-6">
+          <div class="well">
+            <div class="thumbnail">
+              <img src="https://github.com/chrisjim316/Personal-Portfolio-/blob/master/Images/TransWorldTrotter.png?raw=true" alt="worldTrotter" class="project-img" style:"width:50%;height:50%;">
+            </div>
+            <h2 id="projectTitle" data-toggle="collapse" data-target="#worldTrotter">WORLDTROTTER</h2>
+            <div id="worldTrotter" class="collapse projectDescription">
+              <ul>
+                <li> This app contains multiple views(tabs). </li>
+                <li> One view converts values between degrees Fahrenheit and degrees Celsius, one displays the world map, and the other displays web view. </li>
+                <li> All views are localized in three distinct languages (English, Chinese, Spanish).</li>
+              </ul>
+              <p><strong>Technologies used:</strong> Swift, XCode</p>
+            </div>
+          </div>
+        </div>   
+        <div class="col-md-6">
+          <div class="well">
+            <a class="thumbnail" href="https://github.com/chrisjim316/ThirteensCardGame" target="_blank">
+              <img src="https://user-images.githubusercontent.com/26378494/28245907-7cec9b8c-6a43-11e7-9b90-babb87221a83.gif" alt="cardGame-demo" class="project-img"> 
+              <img src="https://user-images.githubusercontent.com/26378494/28245913-80f66320-6a43-11e7-871d-882421d52e7c.gif" alt="cardGame-win" class="project-img">
+              <img src="https://user-images.githubusercontent.com/26378494/28245909-7f28beee-6a43-11e7-8596-313a64bc82d2.JPG" alt="cardGame-lose" class="project-img">
+            </a>
+            <h2 id="projectTitle" data-toggle="collapse" data-target="#cardGame">SOLITAIRE CARD GAME</h2>
+            <!-- collapsible projectDescription -->
+            <div id="cardGame" class="collapse projectDescription">
+              <ul>
+                <li> This modified game "Thirteens" is inspired by the game "Tetris Solitaire" created by Randy Rasa. </li>
+                <li> Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q correspond to the point values of 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12. </li>
+                <li> Pairs of cards whose point values add up to 13 are selected and removed. </li>
+                <li> Kings are selected and removed singly. </li>
+                <li> Only two cards can be picked and removed at once. </li>
+                <li> If no remaining moves are available, you lose. </li>
+              </ul>
+              <p><strong>Technologies used:</strong> Java, BlueJ, JFrame, ActionListener</p>
+            </div>
+          </div>
         </div>
       </div>
+     <!-- end of 1st row -->   
+     <!-- second row --> 
+      <div class="row">
+        <div class="col-md-6">
+          <div class="well">
+            <a href="https://user-images.githubusercontent.com/26378494/28362708-03cd7e14-6cb0-11e7-90dd-1fd9b26f64f8.png" class="thumbnail" target="_blank">
+              <img src="https://rafase282.github.io/images/quote.png" alt="Random Quote Generator" class="project-img"></a>
+            <h2 id="projectTitle" data-toggle="collapse" data-target="#random">RANDOM QUOTE GENERATOR</h2>
+            <!-- collapsible projectDescription -->
+            <div id="random" class="collapse projectDescription">
+              <p class="text-center"> Under Construction </p> 
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="well">
+            <a href="https://user-images.githubusercontent.com/26378494/28362708-03cd7e14-6cb0-11e7-90dd-1fd9b26f64f8.png" class="thumbnail" target="_blank">
+              <img src="https://rafase282.github.io/images/weather.png" alt="Local Weather App" class="project-img"></a>
+            <h2 id="projectTitle" data-toggle="collapse" data-target="#weather">LOCAL WEATHER APP</h2>
+            <!-- collapsible projectDescription -->
+            <div id="weather" class="collapse projectDescription">
+              <p class="text-center"> Under Construction </p> 
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- end of 2nd row -->  
     </div>
-  </section> 
-  
+  </section>
+
+
 <!-- Section 5 -->  
   <section class="pageFive" id="contact">
     <h1 class="text-center"> Say Hello to Me </h1>
@@ -181,5 +230,3 @@
       </a></p>
   </footer>
 </body>
-
-
