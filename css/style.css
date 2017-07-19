@@ -262,7 +262,7 @@ backgrt/*mobile screens */
   }
   .pageOne {
     background:url("https://user-images.githubusercontent.com/30268174/28369112-303b6e7a-6cc9-11e7-9f9e-4c8ac1e0bb2f.JPG");
-    background-size: cover;
+    background-size: contain;
     height: 400px;
   }
   .pageTwo {
