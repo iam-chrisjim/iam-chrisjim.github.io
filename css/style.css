@@ -224,7 +224,8 @@ background scroll effects only work in desktop versions with larger   screen siz
   }
 }
 
-/*mobile screens */
+
+backgrt/*mobile screens */
 @media (max-width: 800px) and (min-width: 300px) {
   img {
     width: 30vw; 
@@ -262,6 +263,7 @@ background scroll effects only work in desktop versions with larger   screen siz
   .pageOne {
     background:url("https://user-images.githubusercontent.com/30268174/28369112-303b6e7a-6cc9-11e7-9f9e-4c8ac1e0bb2f.JPG");
     background-size: 100% 100%;
+    background-repeat: no-repeat; 
   }
   .pageTwo {
     height: 1700px;
