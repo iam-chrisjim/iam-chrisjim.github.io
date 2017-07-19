@@ -269,9 +269,6 @@ background scroll effects only work in desktop versions with larger   screen siz
   .pageThree {
     height: 900px; 
   }
-  #projectTitle {
-    font-size: 1.8em;
-  }
 }
 
 
