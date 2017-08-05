@@ -548,7 +548,7 @@ background scroll effects only work in desktop versions with larger   screen siz
     font-size: 3vw;
   }
   ul {
-    font-size: 2.5vw;
+    font-size: 1.5vw;
     width: 80%;
   }
   #pageTwoLabel {
@@ -583,7 +583,7 @@ background scroll effects only work in desktop versions with larger   screen siz
   /* self intro background configuration */
   .self-intro { 
     padding-top: 40px;
-    height: 100%;
+    height: 500px;
   }
   /* paragraph self-intro */
   #self-intro {
