@@ -305,14 +305,14 @@ footer {
 /* control left dot on timeline */
 .direction-l {
   position: relative;
-  width: 376px;
+  width: 417px;
   float: left;
   text-align: right;
 }
 /* control right dot on timeline */
 .direction-r {
   position: relative;
-  width: 417px;
+  width: 367px;
   float: right;
 }
 
