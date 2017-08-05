@@ -477,10 +477,10 @@ background scroll effects only work in desktop versions with larger   screen siz
     height: 450px;
   }
   .pageTwo {
-    height: 1200px;
+    height: 1180px;
   }
   .pageThree {
-    height: 850px;
+    height: 820px;
   }
   .title {
     padding-bottom: 10px;
@@ -589,7 +589,7 @@ background scroll effects only work in desktop versions with larger   screen siz
   /* self intro background configuration */
   .self-intro { 
     padding-top: 40px;
-    height: 460px;
+    height: 480px;
   }
   /* paragraph self-intro */
   #self-intro {
