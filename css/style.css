@@ -24,7 +24,7 @@ html, body {
 .pageTwo {
   background:url("https://github.com/chrisjim316/Personal-Portfolio-/blob/master/Images/About.jpg?raw=true");
   background-size: cover;
-  height: 100%;
+  height: 1400px;
   padding-bottom: 40px;
   padding-top:40px;
 }
@@ -33,7 +33,7 @@ html, body {
 .pageThree {
   background:url("https://user-images.githubusercontent.com/26378494/28327004-d6d6ce24-6c14-11e7-9051-3e682504ee70.jpg");
   background-size: cover;
-  height: 100%;
+  height: 1100px;
   padding-top: 20px;
   padding-bottom: 60px;
 }
@@ -177,7 +177,7 @@ h3 {
 /* self intro background configuration */
 .self-intro {
   background: silver;
-  height: 100%;
+  height: 440px;
   width: 100%;
   padding-top: 60px;
 }
