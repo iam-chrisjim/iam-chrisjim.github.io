@@ -670,7 +670,7 @@ background scroll effects only work in desktop versions with larger   screen siz
 	  position: relative;
 	  margin: 4px 0 0 0;
 	  z-index: 14;
-    font-size: 1.5vw;
+    font-size: 5vw;
   }
   .direction-l .time-wrapper {
 	  float: none;
