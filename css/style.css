@@ -569,7 +569,7 @@ background scroll effects only work in desktop versions with larger   screen siz
 	  position: relative;
 	  margin: 4px 0 0 0;
 	  z-index: 14;
-    font-size: 5vw;
+    font-size: 4vw;
   }
   .direction-l .time-wrapper {
 	  float: none;
@@ -598,6 +598,10 @@ background scroll effects only work in desktop versions with larger   screen siz
   /*College/Job Position*/
   #timeline {
     font-size: 15vw;
+  }
+  .direction-l .desc,
+  .direction-r .desc {
+	  margin: 1em 4em 0 4em;
   }
 }
 
