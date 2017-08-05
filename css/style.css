@@ -599,10 +599,6 @@ background scroll effects only work in desktop versions with larger   screen siz
   #timeline {
     font-size: 15vw;
   }
-  /*date/time span*/
-  .time-wrapper {
-    font-size: 2vw;
-  }
 }
 
 /*ipad screens*/
