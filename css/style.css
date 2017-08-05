@@ -595,14 +595,17 @@ background scroll effects only work in desktop versions with larger   screen siz
   #footer {
     font-size: 3vw;
   }
+  /*College/Job Position*/
   #timeline {
-    font-size: 6vw;
-  }
-  .time-wrapper {
-    font-size: 3em;
-  }
-  .desc {
     font-size: 2.8em;
+  }
+  /*date/time span*/
+  .time-wrapper {
+    font-size: 2.4em;
+  }
+  /*desc of College/Job Position*/
+  .desc {
+    font-size: 2em;
   }
 }
 
