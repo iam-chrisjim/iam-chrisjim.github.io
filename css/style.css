@@ -178,7 +178,7 @@ h3 {
 /* self intro background configuration */
 .self-intro {
   background: silver;
-  height: 440px;
+  min-height: 100%
   width: 100%;
   padding-top: 60px;
 }
@@ -474,12 +474,6 @@ background scroll effects only work in desktop versions with larger   screen siz
     background:url("https://user-images.githubusercontent.com/26378494/28993780-9166167a-79f1-11e7-9eee-006460b30d99.jpg");
     height: 450px;
   }
-  .pageTwo {
-    height: 1180px;
-  }
-  .pageThree {
-    height: 820px;
-  }
   .title {
     padding-bottom: 10px;
     width: 90%;
@@ -497,7 +491,6 @@ background scroll effects only work in desktop versions with larger   screen siz
   /* self intro background configuration */
   .self-intro { 
     padding-top: 40px;
-    height: 380px;
   }
   /* paragraph self-intro */
   #self-intro {
@@ -561,12 +554,6 @@ background scroll effects only work in desktop versions with larger   screen siz
     height: 600px;
     padding-top: 100px;
   }
-  .pageTwo {
-    height: 1800px;
-  }
-  .pageThree {
-    height: 1600px;
-  }
   .title {
     padding-bottom: 10px;
     width: 90%;
@@ -584,7 +571,6 @@ background scroll effects only work in desktop versions with larger   screen siz
   /* self intro background configuration */
   .self-intro { 
     padding-top: 40px;
-    height: 500px;
   }
   /* paragraph self-intro */
   #self-intro {
