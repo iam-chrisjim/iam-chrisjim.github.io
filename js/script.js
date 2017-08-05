@@ -14,7 +14,7 @@ $(document).on('click.bs.collapse.data-api touchstart.bs.collapse.data-api', '[d
 /* ipad screens media query in JavaScript */
 var mqls = [ // list of window.matchMedia() queries
   window.matchMedia("(min-width: 768px)"),
-  window.matchMedia("(max-width: 800px)"),
+  window.matchMedia("(max-width: 900px)"),
 ];
 
 if (mqls[0].matches && mqls[1].matches) {
