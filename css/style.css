@@ -515,6 +515,10 @@ background scroll effects only work in desktop versions with larger   screen siz
   #footer {
     font-size: 3vw;
   }
+  /* control right dot on timeline */
+  .direction-r {
+    width: 367px;
+  }
 }
 
 /*ipad screens*/
