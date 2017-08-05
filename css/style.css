@@ -551,7 +551,6 @@ background scroll effects only work in desktop versions with larger   screen siz
     background-size: 100% 100%;
     background:url("https://user-images.githubusercontent.com/26378494/28993780-9166167a-79f1-11e7-9eee-006460b30d99.jpg");
     height: 600px;
-    padding-top: 100px;
   }
   .title {
     padding-bottom: 10px;
@@ -595,6 +594,15 @@ background scroll effects only work in desktop versions with larger   screen siz
   }
   #footer {
     font-size: 3vw;
+  }
+  #timeline {
+    font-size: 6vw;
+  }
+  .time-wrapper {
+    font-size: 3em;
+  }
+  .desc {
+    font-size: 2.8em;
   }
 }
 
