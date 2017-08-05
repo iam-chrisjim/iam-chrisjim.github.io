@@ -607,6 +607,9 @@ background scroll effects only work in desktop versions with larger   screen siz
   .desc {
     font-size: 2vw;
   }
+  .timeline {
+    width: 900px;
+  }
 }
 
 /* Timeline Media Queries  */
