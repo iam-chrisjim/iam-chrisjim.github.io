@@ -312,7 +312,7 @@ footer {
 /* control right dot on timeline */
 .direction-r {
   position: relative;
-  width: 367px;
+  width: 417px;
   float: right;
 }
 
@@ -398,6 +398,8 @@ footer {
   font-size: 0.8em;
   color: rgb(250,80,80);
   vertical-align: middle;
+  border-style: solid;
+  border-width: 1px;
 }
 
 .direction-l .time-wrapper {
