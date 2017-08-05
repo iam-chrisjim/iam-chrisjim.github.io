@@ -461,9 +461,6 @@ background scroll effects only work in desktop versions with larger   screen siz
   .skill {
     font-size: 5vw;
   }
-  .transBlock {
-    width: 65%;
-  }
   ul {
     font-size: 4.5vw;
     width: 80%;
@@ -536,29 +533,26 @@ background scroll effects only work in desktop versions with larger   screen siz
     height: 30vh;
   }
   h1 {
-    font-size: 10vw;
-  }
-  h2 {
     font-size: 8vw;
   }
-  h3 {
+  h2 {
     font-size: 6vw;
+  }
+  h3 {
+    font-size: 4vw;
   }
   p {
-    font-size: 6vw;
+    font-size: 4vw;
   }
   .skill {
-    font-size: 5vw;
-  }
-  .transBlock {
-    width: 65%;
+    font-size: 3vw;
   }
   ul {
-    font-size: 4.5vw;
+    font-size: 2.5vw;
     width: 80%;
   }
   #pageTwoLabel {
-    font-size: 13vw;
+    font-size: 10vw;
   }
   .pageOne {
     background-size: 100% 100%;
@@ -567,10 +561,10 @@ background scroll effects only work in desktop versions with larger   screen siz
     padding-top: 100px;
   }
   .pageTwo {
-    height: 1900px;
+    height: 1800px;
   }
   .pageThree {
-    height: 1800px;
+    height: 1600px;
   }
   .title {
     padding-bottom: 10px;
@@ -589,28 +583,28 @@ background scroll effects only work in desktop versions with larger   screen siz
   /* self intro background configuration */
   .self-intro { 
     padding-top: 40px;
-    height: 800px;
+    height: 100%;
   }
   /* paragraph self-intro */
   #self-intro {
     width: 80%;
-    font-size: 5vw;
+    font-size: 3vw;
   }
   #borderText {
-    font-size: 5.5vw;
+    font-size: 3.5vw;
   }
   #jobPosition {
-    font-size:6.5vw;
+    font-size:4.5vw;
   }
   .pageTitles {
     width: 85%;
   }
   #pageTitle {
-    font-size: 12vw;
+    font-size: 9vw;
   }
   /*skill category title */
   #pageTwoLabel {
-    font-size: 10vw;
+    font-size: 6vw;
     padding-bottom: 10px;
   }
   #footer {
