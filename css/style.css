@@ -50,7 +50,7 @@ html, body {
   background:url("https://github.com/chrisjim316/Personal-Portfolio-/blob/master/Images/Contact.jpg?raw=true");
   background-size: cover;
   height: 350px;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 .btnList {
@@ -477,10 +477,10 @@ background scroll effects only work in desktop versions with larger   screen siz
     height: 450px;
   }
   .pageTwo {
-    height: 1500px;
+    height: 1200px;
   }
   .pageThree {
-    height: 950px;
+    height: 850px;
   }
   .title {
     padding-bottom: 10px;
@@ -564,6 +564,7 @@ background scroll effects only work in desktop versions with larger   screen siz
     background-size: 100% 100%;
     background:url("https://user-images.githubusercontent.com/26378494/28993780-9166167a-79f1-11e7-9eee-006460b30d99.jpg");
     height: 600px;
+    padding-top: 100px;
   }
   .pageTwo {
     height: 1750px;
@@ -588,7 +589,7 @@ background scroll effects only work in desktop versions with larger   screen siz
   /* self intro background configuration */
   .self-intro { 
     padding-top: 40px;
-    height: 420px;
+    height: 460px;
   }
   /* paragraph self-intro */
   #self-intro {
