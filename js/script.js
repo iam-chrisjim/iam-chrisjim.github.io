@@ -12,12 +12,12 @@ $(document).on('click.bs.collapse.data-api touchstart.bs.collapse.data-api', '[d
 });
 
 /* iphone screens media query in JavaScript */
-var mqls2 = [ // list of window.matchMedia() queries
+var mqls = [ // list of window.matchMedia() queries
   window.matchMedia("(min-width: 300px)"),
   window.matchMedia("(max-width: 800px)"),
 ];
 
-if (mqls2[0].matches && mqls2[1].matches) {
+if (mqls[0].matches && mqls[1].matches) {
   $(".time-wrapper").css("border-style", "none");
 }
 
