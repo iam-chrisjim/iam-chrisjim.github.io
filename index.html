@@ -16,33 +16,6 @@
    <script type="text/javascript" src="js/script.js"></script>
 </header>
 
-<!-- The scrollable area -->
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
-
-<!-- The navbar - The <a> elements are used to jump to a section in the scrollable area -->
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <!-- collapsed navbar-->
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <!--end collapse-->
-      <a class="navbar-brand scroll" href="#home">Chris Jim</a>
-     </div>
-     <div class="collapse navbar-collapse" id="myNavbar">
-       <ul class="nav navbar-nav navbar-right">
-         <li><a href="#home" class="scroll"><span class="glyphicon glyphicon-home"></span> Home</a></li>
-         <li><a href="#about" class="scroll"><span class="glyphicon glyphicon-user"></span> About </a></li> 
-         <li><a href="#experience" class="scroll"><span class="glyphicon glyphicon-road"></span> Experience</a></li>
-         <li><a href="#portfolio" class="scroll"><span class="glyphicon glyphicon-briefcase"></span> Portfolio</a></li>
-         <li><a href="#contact" class="scroll"><span class="glyphicon glyphicon-globe"></span> Contact</a></li>
-       </ul>
-     </div>
-  </div>
-</nav>
-  
 <!-- Section 1 -->
   <section class="pageOne text-center" id="home">
     <div id="overlay">
@@ -109,22 +82,34 @@
 
 <!-- Section 3 --> 
   <section class="pageThree" id="experience" style="color:black;"> 
-    <h1 class="text-center border pageTitles" style="color:black;" id="pageTitle"> EXPERIENCE </h1> 
-      <div id="timeline"> 
-      <!-- The Timeline -->
+    <h1 class="text-center border pageTitles" style="color:black; margin-bottom: 3%;" id="pageTitle"> EXPERIENCE </h1> 
+    <div class="work-timeline">
       <ul class="timeline">
-	<!-- Item 2 -->
-	    <li>
-		    <div class="direction-l">
-			    <div class="flag-wrapper">
-				    <span class="flag">FREELANCE WEB DEVELOPER</span>
-				    <span class="time-wrapper"><span class="time">2017 - Present</span></span>
-			    </div>
-			    <div class="desc">Built multiple responsive web applications and earned the Front-End Development Certification (477 Hours Challenge) </div>
-		    </div>
-	    </li>
-    </ul>
-    </div>
+        <li class="timeline-event">
+          <label class="timeline-event-icon"></label>
+          <div class="timeline-event-copy">
+            <p class="timeline-event-thumbnail"> 2017 - Present </p>
+            <h5 id="workplace"><a href="https://www.freecodecamp.org/chrisjim316" target="_blank">FREECODECAMP</a></h5>
+            <h5 id="jobPos"> Freelance Web Developer </h5>
+            <p id="jobDesc">
+              Built multiple responsive web applications and earned the Front-End Development Certification (477 Hours Challenge)
+            </p>
+          </div>
+        </li>
+      </ul>
+      <ul class="timeline">
+        <li class="timeline-event">
+          <label class="timeline-event-icon"></label>
+          <div class="timeline-event-copy">
+            <p class="timeline-event-thumbnail">March 2016 - July 2017 </p>
+            <h5 id="workplace"><a href="http://www.tact.com.tw/" target="_blank">TAIWAN TACT EDUCATION CO.,LTD.</a></h5>
+            <h5 id="jobPos"> English Language/IELTS Tutor </h5>
+            <p id="jobDesc"> Taught English and IELTS to junior-high and senior-high school students </p>
+            <p id="jobDesc"> Successfully raised senior students' IELTS scores by an average of 1.0 - 1.5 band scale on an overall scale of 9.0 </p>
+          </div>
+        </li>
+      </ul>
+    </div>  
   </section>
   
 <!-- Section 4 Project Showcase -->   
