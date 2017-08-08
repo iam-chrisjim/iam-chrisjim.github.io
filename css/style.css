@@ -289,7 +289,7 @@ footer {
   -o-transition: all .3s;
 }
 .timeline-event:hover  #workplace{
-  color: #ed5565;
+  color: #4f83f2;
 }
 .timeline-event-copy {
   left: 50px;
@@ -412,7 +412,7 @@ background scroll effects only work in desktop versions with larger   screen siz
   .CV,.contact {
     top: 110px;
     position: relative;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
   }
   /* self intro background configuration */
   .self-intro { 
@@ -434,7 +434,7 @@ background scroll effects only work in desktop versions with larger   screen siz
     width: 85%;
   }
   #pageTitle {
-    padding-bottom: 25px;
+    padding-bottom: 40px;
     font-size: 12vw;
   }
   /*skill category title */
