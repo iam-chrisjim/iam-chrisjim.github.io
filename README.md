@@ -1,8 +1,4 @@
-Personal Portfolio
-------------------
-
-Link to GitHub Pages domain: http://iamchrisjim.com/
-
-A [Pen](https://codepen.io/liljimbos/pen/RgxryK) by [Chris Jim ](http://codepen.io/liljimbos) on [CodePen](http://codepen.io/).
-
-[License](https://codepen.io/liljimbos/pen/RgxryK/license).
+# **Personal Website**
+![personal website](https://github.com/chrisjim316/Personal-Portfolio-/blob/master/Images/intro2.JPG?raw=true)
+## [LIVE DEMO](http://iamchrisjim.com/)    -     [SOURCE CODE](https://codepen.io/liljimbos/pen/RgxryK)
+## [LICENSE](https://github.com/iam-chrisjim/iam-chrisjim.github.io/blob/master/LICENSE)
