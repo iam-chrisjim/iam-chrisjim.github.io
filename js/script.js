@@ -1,5 +1,5 @@
 /* smooth scroll */
-$(document).ready(function(){ 
+$(document).ready(function(){
   /* Hide 'hide details' buttons in the beginning */
   $("#showLess1").hide();
   $("#showLess2").hide();
@@ -8,21 +8,21 @@ $(document).ready(function(){
   $("#showLess5").hide();
   $("#showLess6").hide();
   $("#showLess7").hide();
-  $("#showLess8").hide(); 
+  $("#showLess8").hide();
   $("#showLess9").hide();
   $("#showLess10").hide();
   $("#showLess11").hide();
   $("#showLess12").hide();
-  
-	$(".scroll").click(function(event){
-		event.preventDefault();
-		$("html,body").animate({scrollTop:$(this.hash).offset().top}, 500);
-		$('.navbar-default a').removeClass('selected');
-		$(this).addClass('selected');
-  });
-  
-  /* clicking 'show details' will turn the button into 'hide details' and vice versa 
-   * 10 projects in total so 20 buttons 
+
+// $(".scroll").click(function(event){
+// 	event.preventDefault();
+// 	$("html,body").animate({scrollTop:$(this.hash).offset().top}, 500);
+// 	$('.navbar-default a').removeClass('selected');
+// 	$(this).addClass('selected');
+// });
+
+  /* clicking 'show details' will turn the button into 'hide details' and vice versa
+   * 10 projects in total so 20 buttons
    */
   $("#viewMore1").on("click", function() {
     $("#viewMore1").hide();
@@ -84,7 +84,7 @@ $(document).ready(function(){
     $("#viewMore8").hide();
     $("#showLess8").show();
   });
-  $("#showLess8").on("click", function() { 
+  $("#showLess8").on("click", function() {
     $("#viewMore8").show();
     $("#showLess8").hide();
   });
@@ -92,7 +92,7 @@ $(document).ready(function(){
     $("#viewMore9").hide();
     $("#showLess9").show();
   });
-  $("#showLess9").on("click", function() { 
+  $("#showLess9").on("click", function() {
     $("#viewMore9").show();
     $("#showLess9").hide();
   });
@@ -100,7 +100,7 @@ $(document).ready(function(){
     $("#viewMore10").hide();
     $("#showLess10").show();
   });
-  $("#showLess10").on("click", function() { 
+  $("#showLess10").on("click", function() {
     $("#viewMore10").show();
     $("#showLess10").hide();
   });
@@ -108,7 +108,7 @@ $(document).ready(function(){
     $("#viewMore11").hide();
     $("#showLess11").show();
   });
-  $("#showLess11").on("click", function() { 
+  $("#showLess11").on("click", function() {
     $("#viewMore11").show();
     $("#showLess11").hide();
   });
@@ -116,11 +116,11 @@ $(document).ready(function(){
     $("#viewMore12").hide();
     $("#showLess12").show();
   });
-  $("#showLess12").on("click", function() { 
+  $("#showLess12").on("click", function() {
     $("#viewMore12").show();
     $("#showLess12").hide();
   });
 });
 
-$(document).on('click.bs.collapse.data-api touchstart.bs.collapse.data-api', '[data-toggle="collapse"]', function (e) { 
+$(document).on('click.bs.collapse.data-api touchstart.bs.collapse.data-api', '[data-toggle="collapse"]', function (e) {
 });
